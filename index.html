@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bantenara</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <!-- feather-icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav id="nav" class="fixed w-full z-20 top-0 start-0 mb-[100px] ">
+            <a href="#hero" class="active:text-gray">
+            </a>
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="active:text-gray">
+                    <span class="active:text-gray self-center  font-semibold whitespace-nowra">
+                        <img src="img/BADAQ PUTIH-01.png" class="w-12"></span>
+                </a>
+                <div class="flex bg-white-700 xl:order-2 xl:space-x-0 rtl:space-x-reverse">
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white-500 rounded-lg xl:hidden hover:bg-white-100 focus:outline-none focus:ring-2 focus:ring-white-200 dark:text-white-400 dark:hover:bg-white-700 dark:focus:ring-white-600"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full xl:flex xl:w-auto xl:order-1 text-3xl"
+                    id="navbar-sticky">
+                    <ul
+                        class="navbar flex flex-col p-4 xl:p-0 mt-4 font-medium border xl:space-x-8 rtl:space-x-reverse xl:flex-row xl:mt-0 xl:border-0 dark:bg-white-800 xl:dark:bg-white-900 dark:border-white-700">
+                        <li>
+                            <a href="#budaya"
+                                class="block py-2 px-3 text-white bg-white rounded xl:bg-transparent xl:text-grey-700 xl:p-0 xl:dark:text-grey-500 hover-underline-animation"
+                                aria-current>Budaya</a>
+                        </li>
+                        </li>
+                        <li>
+                            <a href="#pariwisata"
+                                class="block py-2 px-3 text-white bg-white rounded xl:bg-transparent xl:text-grey-700 xl:p-0 xl:dark:text-grey-500 hover-underline-animation"
+                                aria-current>Pariwisata</a>
+                        </li>
+                        <li>
+                            <a href="#kuliner"
+                                class="block py-2 px-3 text-white bg-white rounded xl:bg-transparent xl:text-grey-700 xl:p-0 xl:dark:text-grey-500 hover-underline-animation"
+                                aria-current>Kuliner</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <!-- hero -->
+    <section>
+        <div class="bg-cover bg-center h-screen flex items-center justify-center"
+            style="background-image: url('img/indexBG.jpg')">
+            <div class="text-center">
+                <h1 class="text-6xl font-extrabold text-white z-5 lg:text-6xl">Selamat Datang</h1>
+                <p class="text-lg text-white mt-4">Ini adalah hero section dengan latar belakang gambar yang responsif.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- hero -->
+
+    <!-- budaya -->
+    <section>
+        <div id="budaya" class="h-screen bg-gradient-to-b from-[#181c04] via-green-900 to-green-500">
+            <div class="container px-6 flex flex-col-reverse md:flex-row mx-auto">
+                <div class=" md:w-1/2 mt-[200px]">
+                    <div class=" rounded-lg">
+                        <img src="img/DEBUS.jpg" alt="" class="">
+                    </div>
+                </div>
+                <div class="md:w-1/2 mt-[-55px]">
+                    <h1 class="" data-aos="fade-left">
+                        <span class="">Budaya </span>Banten
+                    </h1>
+                    <h2 class="" data-aos="">Mengenal budaya banten</h2>
+                    <p class="">Makna batik Indonesia adalah
+                        simbol kompleks dari identitas budaya, sejarah, dan filosofi masyarakat Indonesia. Batik
+                        mencerminkan nilai-nilai budaya, simbolisme keagamaan, serta pesan moral dan etika, menciptakan
+                        jalinan yang mendalam antara seni, budaya, dan kehidupan sehari-hari. Sebagai simbol identitas
+                        nasional, batik menghubungkan individu dengan akar-akar budaya mereka dan memainkan peran
+                        penting dalam mempertahankan warisan budaya Indonesia sambil terus berkembang dan menyesuaikan
+                        diri dengan tren modern dan kreativitas. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- budaya -->
+
+    <!-- pariwisata -->
+    <section>
+        <div id="pariwisata" class="h-screen  bg-gradient-to-b from-green-500 via-green-300 to-green-500 ">
+
+        </div>
+    </section>
+    <!-- pariwisata -->
+
+    <!-- kuliner -->
+    <section>
+        <div id="kuliner" class="h-screen   bg-gradient-to-t from-green-500 via-green-300 to-green-500 ">
+
+        </div>
+    </section>
+    <!-- kuliner -->
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
